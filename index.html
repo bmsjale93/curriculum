@@ -13,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
         <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -22,30 +22,45 @@
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Alejandro Delgado</span></a>
+                    <a class="navbar-brand" href="#home"><span class="fw-bolder text-primary">Alejandro Delgado</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Experiencia</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Proyectos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#languages">Lenguajes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about-me">Sobre Mí</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#education">Educación</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
             <!-- Header-->
-            <header class="py-5">
+            <header id="home" class="py-5">
                 <div class="container px-5 pb-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-xxl-5">
                             <!-- Header text content-->
                             <div class="text-center text-xxl-start">
-                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Diseño &middot; Desarrollo &middot; Ciberseguridad &middot; Marketing</div></div>
+                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
+                                    <div class="text-uppercase py-2 px-2">INGENIERÍA INFORMÁTICA &middot; CIBERSEGURIDAD &middot; MARKETING</div>
+                                </div>
                                 <div class="fs-3 fw-light text-muted">Bienvenido a mi</div>
                                 <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Curriculum Website</span></h1>
-                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Experiencia</a>
-                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Proyectos</a>
+                                <!-- Botones de Experiencia y Proyectos -->
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-5">
+                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#education">Experiencia</a>
+                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="#projects">Proyectos</a>
+                                </div>
+                                <!-- Iconos de redes sociales, alineados correctamente debajo de los botones -->
+                                <div class="d-flex justify-content-center justify-content-xxl-start fs-1 gap-4">
+                                    <a class="text-gradient" href="https://www.instagram.com/alex_delgado93/"><i class="bi bi-instagram"></i></a>
+                                    <a class="text-gradient" href="https://www.linkedin.com/in/alejandrodm93/"><i class="bi bi-linkedin"></i></a>
+                                    <a class="text-gradient" href="https://github.com/bmsjale93"><i class="bi bi-github"></i></a>
+                                    <a class="text-gradient" href="mailto:bmsjale@gmail.com"><i class="bi bi-envelope"></i></a>
+                                    <a class="text-gradient" href="tel:+34678689514"><i class="bi bi-phone"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -174,17 +189,598 @@
                     </div>
                 </div>
             </header>
-            <!-- About Section-->
-            <section class="bg-light py-5">
+            <!-- Sección Skills-->
+            <section id="languages" class="bg-gradient-primary-to-secondary py-5">
+                <div class="container py-5">
+                    <div class="text-center mb-5">
+                        <h2 class="text-white display-5 fw-bolder pb-3">Lenguajes Utilizados</h2>
+                    </div>
+                    <div class="row text-center mb-5">
+                        <!-- Skill 1 -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="skill-circle text-center">
+                                <svg class="circle" viewBox="0 0 36 36" width="120" height="120" data-percentage="80">
+                                    <path class="circle-bg"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle-bar"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <text x="18" y="20.35" class="percentage fw-bolder" text-anchor="middle" fill="#fff" font-size="8">95%</text>
+                                </svg>
+                                <h5 class="mt-3 text-white fw-bolder">HTML5/CSS</h5>
+                            </div>
+                        </div>
+                        <!-- Skill 2 -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="skill-circle text-center">
+                                <svg class="circle" viewBox="0 0 36 36" width="120" height="120" data-percentage="80">
+                                    <path class="circle-bg"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle-bar"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <text x="18" y="20.35" class="percentage fw-bolder" text-anchor="middle" fill="#fff" font-size="8">80%</text>
+                                </svg>
+                                <h5 class="mt-3 text-white fw-bolder">JAVASCRIPT</h5>
+                            </div>
+                        </div>
+                        <!-- Skill 3 -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="skill-circle text-center">
+                                <svg class="circle" viewBox="0 0 36 36" width="120" height="120" data-percentage="75">
+                                    <path class="circle-bg"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle-bar"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <text x="18" y="20.35" class="percentage fw-bolder" text-anchor="middle" fill="#fff" font-size="8">75%</text>
+                                </svg>
+                                <h5 class="mt-3 text-white fw-bolder">PHP</h5>
+                            </div>
+                        </div>
+                        <!-- Skill 4 -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="skill-circle text-center">
+                                <svg class="circle" viewBox="0 0 36 36" width="120" height="120" data-percentage="70">
+                                    <path class="circle-bg"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <path class="circle-bar"
+                                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    <text x="18" y="20.35" class="percentage fw-bolder" text-anchor="middle" fill="#fff" font-size="8">70%</text>
+                                </svg>
+                                <h5 class="mt-3 text-white fw-bolder">PYTHON</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Sección Sobre Mi -->
+            <section id="about-me" class="bg-white py-5">
                 <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Sobre Mí</span></h2>
-                                <p class="lead fw-light mb-4">Mi nombre es Alejandro Delgado</p>
-                                <p class="text-muted">Soy Ingeniero Informático con un máster en Ciberseguridad y más de 8 años de experiencia como autónomo en la creación de sitios web utilizando WordPress y diversos CRMs.
+                    <div class="row gx-5 justify-content-center align-items-center">
+                        <!-- Columna de Imagen -->
+                        <div class="col-lg-5 d-none d-md-block">
+                            <div class="text-center">
+                                <img src="assets/foto-perfil-cv.png" alt="Foto de Alejandro Delgado" class="img-fluid rounded-circle" style="max-width: 300px;">
+                            </div>
+                        </div>
+                        <!-- Columna de Texto-->
+                        <div class="col-lg-7">
+                            <div class="my-5">
+                                <h2 class="display-5 fw-bolder text-start"><span class="text-gradient d-inline">Sobre Mí</span></h2>
+                                <p class="lead fw-light mb-4 text-start">Mi nombre es Alejandro Delgado</p>
+                                <p class="text-muted text-start">Soy <b>Ingeniero Informático</b> con un <b>Máster en Ciberseguridad</b> y más de 8 años de experiencia como autónomo en la creación de sitios web utilizando WordPress y diversos CRMs.
                                     <br><br><b>Mi enfoque</b> se centra en tres áreas clave: el diseño web, la ciberseguridad y la inteligencia artificial, buscando continuamente nuevas oportunidades para aplicar mis habilidades en estos campos.
-                                    <br><br><b>Mi objetivo</b> es colaborar con empresas que busquen soluciones tecnológicas innovadoras y seguras, aportando experiencia tanto en desarrollo web como en protección de datos y sistemas.</p>
+                                    <br><br><b>Mi objetivo</b> es colaborar con empresas que busquen soluciones tecnológicas innovadoras y seguras, aportando experiencia tanto en desarrollo web como en protección de datos y sistemas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Page Content-->
+            <section id="education" class="bg-light py-5">
+                <div class="container px-5 my-5 bg-light">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resumen</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-12 col-xl-12 col-xxl-12">
+                            <!-- Education Section-->
+                            <section>
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                    <h2 class="text-secondary fw-bolder mb-0">Educación</h2>
+                                    <!-- Download resume button-->
+                                    <a class="btn btn-primary px-4 py-3" href="assets/curriculum/alejandrodelgadocv.pdf" download>
+                                        <div class="d-inline-block bi bi-download me-2"></div>
+                                        Descarga Curriculum
+                                    </a>
+                                </div>
+                                <!-- Education Card 1-->
+                                <div class="row">
+                                    <!-- Education Card 1 -->
+                                    <div class="col-lg-6 mb-5">
+                                        <div class="card shadow border-0 rounded-4">
+                                            <div class="card-body p-5">
+                                                <div class="row align-items-center gx-5">
+                                                    <div class="col-lg-12 text-center text-lg-start mb-4 mb-lg-0">
+                                                        <div class="bg-light rounded-4 mb-4 p-3">
+                                                            <div class="text-secondary fw-bolder mb-2">2021-2025</div>
+                                                            <div class="mb-2">
+                                                                <div class="small fw-bolder">Universidad Europea de Madrid</div>
+                                                                <div class="small text-muted">Madrid, España</div>
+                                                            </div>
+                                                            <div class="fst-italic">
+                                                                <div class="small text-muted">Ingeniería Informática</div>
+                                                                <div class="small fw-bolder text-secondary">Becado por Excelencia Académica</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 px-4">
+                                                        <div class="small">En la carrera de <b>Ingeniería Informática</b>, desarrollé una sólida base en programación, redes y sistemas, así como habilidades para la <b>resolución de problemas complejos</b>.
+                                                            <br><br>Esta formación me permitió <b>adaptarme a nuevas tecnologías</b>, conocer de forma sólida <b>los lenguajes más demandados</b> en el mercado y aplicar los fundamentos de la informática a proyectos de software e infraestructura.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Education Card 2 -->
+                                    <div class="col-lg-6 mb-5">
+                                        <div class="card shadow border-0 rounded-4">
+                                            <div class="card-body p-5">
+                                                <div class="row align-items-center gx-5">
+                                                    <div class="col-lg-12 text-center text-lg-start mb-4 mb-lg-0">
+                                                        <div class="bg-light rounded-4 mb-4 p-3">
+                                                            <div class="text-secondary fw-bolder mb-2">2023-2024</div>
+                                                            <div class="mb-2">
+                                                                <div class="small fw-bolder">KeepCoding</div>
+                                                                <div class="small text-muted">Madrid, España</div>
+                                                            </div>
+                                                            <div class="fst-italic">
+                                                                <div class="small text-muted">Máster Ciber Seguridad Full Stack</div>
+                                                                <div class="small fw-bolder text-secondary">Nota final: 9</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 px-4">
+                                                        <div class="small">En el <b>Máster en Ciberseguridad Full Stack</b>, adquirí conocimientos avanzados en <b>seguridad informática</b>, tanto en <b>infraestructura como en desarrollo de software</b>.
+                                                            <br><br>Aprendí a proteger sistemas y aplicaciones frente a amenazas, aplicando buenas prácticas en <b>seguridad de redes</b>, <b>criptografía</b> y <b>protección de datos</b>, lo que me permitió fortalecer mi enfoque integral en ciberseguridad.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Experience Section-->
+                            <section id="experience">
+                                <div class="d-flex align-items-center justify-content-between mb-4">
+                                    <h2 class="text-primary fw-bolder mb-0">Experiencia</h2>
+                                </div>
+                                <!-- Education Card 1-->
+                                <div class="row">
+                                    <!-- Experience Card 1 -->
+                                    <div class="col-lg-6 mb-5">
+                                        <div class="card shadow border-0 rounded-4">
+                                            <div class="card-body p-5">
+                                                <div class="row align-items-center gx-5">
+                                                    <div class="col-lg-12 text-center text-lg-start mb-4 mb-lg-0">
+                                                        <div class="bg-light rounded-4 mb-4 p-3">
+                                                            <div class="text-primary fw-bolder mb-2">2024-Actual</div>
+                                                            <div class="mb-2">
+                                                                <div class="small fw-bolder">Programador Full Stack</div>
+                                                                <div class="small text-muted">FDM 2020 SL</div>
+                                                            </div>
+                                                            <div class="fst-italic">
+                                                                <div class="small text-muted">Sevilla, España</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 px-4">
+                                                        <div class="small">Durante mi tiempo en la empresa, gestioné la optimización de equipos, el control de la red y del servidor interno. 
+                                                        Además, me especialicé en el desarrollo de aplicaciones web desde cero, creando soluciones personalizadas que cumplieron con las necesidades específicas de la empresa.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Experience Card 2 -->
+                                    <div class="col-lg-6 mb-5">
+                                        <div class="card shadow border-0 rounded-4">
+                                            <div class="card-body p-5">
+                                                <div class="row align-items-center gx-5">
+                                                    <div class="col-lg-12 text-center text-lg-start mb-4 mb-lg-0">
+                                                        <div class="bg-light rounded-4 mb-4 p-3">
+                                                            <div class="text-primary fw-bolder mb-2">2023 Julio - 2023 Diciembre</div>
+                                                            <div class="mb-2">
+                                                                <div class="small fw-bolder">Programador Backend Wordpress</div>
+                                                                <div class="small text-muted">BlueCell</div>
+                                                            </div>
+                                                            <div class="fst-italic">
+                                                                <div class="small text-muted">Madrid, España</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 px-4">
+                                                        <div class="small">En esta empresa me enfoqué en el desarrollo de backend, gestionando bases de datos para temas de WordPress y creando plugins personalizados. 
+                                                        <br><br>Estas soluciones facilitaron al cliente el control y la administración eficiente de su web.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Experience Card 3 -->
+                                    <div class="col-lg-6 mb-5">
+                                        <div class="card shadow border-0 rounded-4">
+                                            <div class="card-body p-5">
+                                                <div class="row align-items-center gx-5">
+                                                    <div class="col-lg-12 text-center text-lg-start mb-4 mb-lg-0">
+                                                        <div class="bg-light rounded-4 mb-4 p-3">
+                                                            <div class="text-primary fw-bolder mb-2">2020 - 2023</div>
+                                                            <div class="mb-2">
+                                                                <div class="small fw-bolder">Técnico Informático & Programador Web</div>
+                                                                <div class="small text-muted">VODELL SL</div>
+                                                            </div>
+                                                            <div class="fst-italic">
+                                                                <div class="small text-muted">Sevilla, España</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 px-4">
+                                                        <div class="small">En esta empresa, me encargué del control y compra de equipos, la gestión de la red empresarial y archivos online, así como el desarrollo y mantenimiento del sitio web. 
+                                                            <br><br>También gestioné las redes sociales, asegurando su correcta administración y presencia online.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Experience Card 4 -->
+                                    <div class="col-lg-6 mb-5">
+                                        <div class="card shadow border-0 rounded-4">
+                                            <div class="card-body p-5">
+                                                <div class="row align-items-center gx-5">
+                                                    <div class="col-lg-12 text-center text-lg-start mb-4 mb-lg-0">
+                                                        <div class="bg-light rounded-4 mb-4 p-3">
+                                                            <div class="text-primary fw-bolder mb-2">2012 - 2020</div>
+                                                            <div class="mb-2">
+                                                                <div class="small fw-bolder">Desarrollo Web Wordpress</div>
+                                                                <div class="small text-muted">FREELANCER</div>
+                                                            </div>
+                                                            <div class="fst-italic">
+                                                                <div class="small text-muted">Sevilla, España</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 px-4">
+                                                        <div class="small">Como freelancer, trabajé para diversas empresas en el diseño web, principalmente con WordPress, pero también con Prestashop y Shopify. 
+                                                            <br><br>Me especialicé en el desarrollo de sitios empresariales, blogs y e-commerce, gestionando además los servidores y el mantenimiento completo de cada proyecto.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="skills">
+                                <!-- Skillset Card-->
+                                <div class="card shadow border-0 rounded-4">
+                                    <div class="card-body p-5">
+                                        <!-- Professional skills list-->
+                                        <div class="mb-5">
+                                            <div class="d-flex align-items-center mb-4">
+                                                <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-tools"></i></div>
+                                                <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Skills Profesionales</span></h3>
+                                            </div>
+                                            <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Desarrollo Web</div></div>
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Gestión de Servidores</div></div>
+                                                <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Ciberseguridad</div></div>
+                                            </div>
+                                            <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Desarrollo Backend</div></div>
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Gestión Bases de Datos</div></div>
+                                                <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Administración Redes</div></div>
+                                            </div>
+                                            <div class="row row-cols-1 row-cols-md-3">
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Desarrollo E-commerce</div></div>
+                                                <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Gestión Redes Sociales</div></div>
+                                                <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Expertise en WordPress</div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Call to action section-->
+            <section class="py-5 bg-gradient-primary-to-secondary text-white">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="display-4 fw-bolder mb-4">¡ Trabajemos juntos !</h2>
+                        <div class="col-auto"></div>
+                            <div class="d-flex justify-content-center fs-2 gap-4">
+                                <a class="text-white" href="https://www.instagram.com/alex_delgado93/"><i class="bi bi-instagram"></i></a>
+                                <a class="text-white" href="https://www.linkedin.com/in/alejandrodm93/"><i class="bi bi-linkedin"></i></a>
+                                <a class="text-white" href="https://github.com/bmsjale93"><i class="bi bi-github"></i></a>
+                                <a class="text-white" href="mailto:bmsjale@gmail.com"><i class="bi bi-envelope"></i></a>
+                                <a class="text-white" href="tel:+34678689514"><i class="bi bi-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Projects Section-->
+            <section id="projects" class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-3 fw-bolder mb-3"><span class="text-gradient d-inline">Proyectos</span></h1>
+                        <h4 class="display-6 fw-bolder mb-0"><span class="text-gradient d-inline">Aplicaciones Web</span></h4>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <!-- Project Card 1 -->
+                        <div class="row gx-3 justify-content-center">
+                            <!-- Project Card 1 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/proyecto-1.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">Web Análisis Subastas</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Diseño Web - Scrapping Web</h6>
+                                        <p class="text-muted small">HTML - CSS - JAVASCRIPT - PHP - PYTHON</p>
+                                        <p class="text-muted small">El proyecto incluye un <b>script en Python</b> que realiza <b>web scraping</b> para recopilar subastas, las cuales se limpian y almacenan en un <b>CSV</b>.
+                                            <br><br>La web de subastas tiene acceso limitado y muestra las subastas en <b>formato de tarjeta</b>.
+                                            Cada subasta incluye <b>detalles</b> como dirección, catastro, pujas, un mapa interactivo y una galería de imágenes. 
+                                            Además, permite subir subastas de manera individual o masiva, así como editarlas.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://github.com/bmsjale93/web_subastas"><i class="bi bi-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 2 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/proyecto-2.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">Simulación Phishing</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Diseño Web - Ciberseguridad</h6>
+                                        <p class="text-muted small">HTML - CSS - JAVASCRIPT - PHP</p>
+                                        <p class="text-muted small">4Phish es una <b>aplicación web</b> que permite a los administradores de empresas crear <b>campañas de phishing</b> para evaluar la seguridad de sus empleados.
+                                            <br><br>Los administradores pueden ver métricas en tiempo real, como los empleados que han hecho clic en enlaces maliciosos y la cantidad de correos enviados.
+                                            Si un empleado cae en la trampa, se le redirige a una página educativa sobre el <b>phishing</b> y puede descargar un <b>PDF informativo</b> para concienciarse sobre este tipo de estafa.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://github.com/bmsjale93/simulacion-phishing"><i class="bi bi-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 3 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/proyecto-3.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">Balanpy - Cuida tu Mascota</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Diseño Web</h6>
+                                        <p class="text-muted small">REACT JS</p>
+                                        <p class="text-muted small">Balanpy es una <b>aplicación web</b> para gestionar el cuidado de mascotas, permitiendo a los usuarios organizar <b>vacunas, citas médicas y alimentación</b> desde un panel inspirado en juegos como <b>Tamagotchi</b>.
+                                            <br><br>Los usuarios pueden visualizar <b>estadísticas y gráficos</b> sobre la salud de su mascota y reciben notificaciones sobre fechas importantes, como vacunas y desparasitaciones.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://github.com/Molter73/balanpy-web"><i class="bi bi-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 4 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/proyecto-4.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">Portal de Empleo</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Diseño Web</h6>
+                                        <p class="text-muted small">HTML - CSS - JAVASCRIPT - PHP</p>
+                                        <p class="text-muted small">El <b>Portal de Empleo</b> es un proyecto completo que abarca <b>diseño web</b>, <b>base de datos</b> e <b>interactividad</b>. 
+                                            <br><br>Incluye un <b>panel de control</b> que permite administrar empleos, editar datos y subir currículums, brindando todas las funciones necesarias para un portal de empleo web desde su creación.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://github.com/bmsjale93/portal_empleo"><i class="bi bi-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 5 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/proyecto-5.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">Prototipo sobre Modelo de ML</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Inteligencia Artificial</h6>
+                                        <p class="text-muted small">PYTHON</p>
+                                        <p class="text-muted small">
+                                            El <b>Modelo de Detección Humano vs Máquina</b> es un proyecto de <b>machine learning</b> que compara el rendimiento de modelos en <b>CPU y GPU</b> para clasificar textos como humanos o generados por IA.
+                                            <br><br>Incluye una <b>web interactiva</b> conectada a una API, que utiliza modelos entrenados para identificar textos, proporcionando un <b>porcentaje de probabilidad</b> sobre si el texto fue escrito por un humano o IA.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://github.com/Molter73/proyecto-computacion-1"><i class="bi bi-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 6 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/proyecto-6.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">Ecosun Tracker</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Diseño Web - Robótica</h6>
+                                        <p class="text-muted small">PYTHON - C++ - REACT JS - MAKEFILE - DOCKERFILE</p>
+                                        <p class="text-muted small">
+                                            El <b>Proyecto Ecosun</b> optimiza la recolección de energía mediante <b>paneles solares programados</b> para identificar el mejor ángulo de luz solar.
+                                            <br><br>Utiliza <b>ROS</b> y <b>Arduino</b> para los ajustes, con una <b>web interactiva</b> conectada por API, desarrollada en <b>Python, React JS, C++</b> y <b>Docker</b>, que controla los movimientos del robot solar.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://github.com/Molter73/ecosun"><i class="bi bi-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Projects Section-->
+            <section class="py-2">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-3 fw-bolder mb-3"><span class="text-gradient d-inline">Proyectos</span></h1>
+                        <h4 class="display-6 fw-bolder mb-0"><span class="text-gradient d-inline">Diseño Web</span></h4>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <!-- Project Card 1 -->
+                        <div class="row gx-3 justify-content-center">
+                            <!-- Project Card 1 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/diseño-web-1.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">Doble Valentía</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Diseño Web</h6>
+                                        <p class="text-muted small">Wordpress</p>
+                                        <p class="text-muted small">Este proyecto consistió en la <b>renovación completa</b> del sitio web de una empresa de ropa femenina, gestionando además el <b>hosting</b>, 
+                                            la <b>subida de productos</b>, la <b>implementación de SEO</b> y el <b>mantenimiento</b> continuo del sitio web.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://doblevalentia.com/"><i class="bi bi-cup-hot-fill"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 2 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/diseño-web-2.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">Bolis Artesanales Mallorquines</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Diseño Web</h6>
+                                        <p class="text-muted small">Wordpress - Amazon - Google Shopping</p>
+                                        <p class="text-muted small">En este proyecto se realizó la <b>renovación del sitio web</b>, la <b>migración del hosting</b>, y su <b>gestión y mantenimiento</b>.
+                                            <br><br>Se aplicó <b>SEO completo</b> y se subieron productos a <b>Amazon Sellers</b> y <b>Google Shopping</b> para su venta online.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://bolisartesanalesmallorquines.es"><i class="bi bi-cup-hot-fill"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 3 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/diseño-web-3.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">Don't Admit My Name</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Diseño Web</h6>
+                                        <p class="text-muted small">Wordpress</p>
+                                        <p class="text-muted small">Este proyecto consistió en la <b>renovación completa</b> del sitio web de una empresa de ropa old school, gestionando además el <b>hosting</b>, 
+                                            la <b>subida de productos</b>, la <b>implementación de SEO</b> y el <b>mantenimiento</b> continuo del sitio web.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://www.damnclothing.es"><i class="bi bi-cup-hot-fill"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 4 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/diseño-web-4.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">TD SportsWear</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Diseño Web</h6>
+                                        <p class="text-muted small">Wordpress - Prestashop</p>
+                                        <p class="text-muted small">Este proyecto incluyó el <b>diseño web completo</b>, la <b>gestión del hosting</b>, la <b>implementación de SEO</b> y la <b>subida de productos</b>. 
+                                            <br><br>Se combinó <b>WordPress</b> para el diseño del sitio web y <b>Prestashop</b> para la gestión de la tienda, optimizando así las ventas de guantes y complementos.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://www.tdsportswear.org"><i class="bi bi-cup-hot-fill"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 5 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/diseño-web-5.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">Palacio de Luja</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Diseño Web</h6>
+                                        <p class="text-muted small">Wordpress</p>
+                                        <p class="text-muted small">Este proyecto incluyó el <b>diseño web completo</b>, la <b>gestión del hosting</b>, y la <b>implementación de SEO</b>. Se añadió una funcionalidad <b>multilenguaje</b> en inglés, francés, italiano y español.
+                                            Además, se integró un <b>widget del CRM hotelero</b> para facilitar la <b>reserva de habitaciones</b> directamente desde el sitio web.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://www.palaciodeluja.com"><i class="bi bi-cup-hot-fill"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 6 -->
+                            <div class="col-lg-4 col-md-12 mb-5">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 h-100 d-flex flex-column">
+                                    <!-- Imagen encima del texto -->
+                                    <img class="img-fluid" src="assets/diseño-web-6.png" alt="Proyecto Subastas" />
+                                    <div class="card-body p-4 text-center">
+                                        <h4 class="fw-bolder">Confinesi</h4>
+                                        <h6 class="text-muted font-semibold text-sm">Diseño Web</h6>
+                                        <p class="text-muted small">Wordpress - SEO</p>
+                                        <p class="text-muted small">
+                                            El <b>Proyecto Confinesi</b> se centró en construir un <b>sitio web optimizado para SEO</b> desde cero, mejorando el <b>posicionamiento de la empresa</b>.
+                                            <br><br>Incluyó el <b>diseño web completo</b>, gestión de <b>hosting</b>, creación de <b>correos empresariales</b> y la implementación de <b>SEO avanzado</b>, además de un <b>Blog</b> especializado en su sector.
+                                        </p>
+                                        <div class="d-flex justify-content-center fs-2 gap-4">
+                                            <a class="text-gradient" href="https://www.confinesi.es"><i class="bi bi-cup-hot-fill"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Call to action section-->
+            <section class="py-5 bg-gradient-primary-to-secondary text-white">
+                <div class="container my-5">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 text-center">
+                            <h2 class="display-4 fw-bolder mb-4">¡ Gracias por la Visita !</h2>
+                            <p class="fw-semibold mb-4">Ha sido un placer compartir mi experiencia y proyectos contigo. 
+                                <br><br>Estoy siempre abierto a nuevas oportunidades profesionales donde pueda aplicar mis conocimientos en desarrollo web, ciberseguridad e inteligencia artificial. 
+                                Si crees que puedo aportar valor a tu equipo, no dudes en contactarme.
+                                <br><br>¡Espero tener noticias tuyas pronto!</p>
+                            <div class="d-flex justify-content-center fs-2 gap-4">
+                                <a class="text-white" href="https://www.instagram.com/alex_delgado93/"><i class="bi bi-instagram"></i></a>
+                                <a class="text-white" href="https://www.linkedin.com/in/alejandrodm93/"><i class="bi bi-linkedin"></i></a>
+                                <a class="text-white" href="https://github.com/bmsjale93"><i class="bi bi-github"></i></a>
+                                <a class="text-white" href="mailto:bmsjale@gmail.com"><i class="bi bi-envelope"></i></a>
+                                <a class="text-white" href="tel:+34678689514"><i class="bi bi-phone"></i></a>
                             </div>
                         </div>
                     </div>
@@ -214,5 +810,59 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- JS para animar los gráficos circulares -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const circles = document.querySelectorAll('.circle');
+                circles.forEach(circle => {
+                    const percentage = parseInt(circle.getAttribute('data-percentage'));
+                    const circleBar = circle.querySelector('.circle-bar');
+                    let currentPercentage = 0;
+                    
+                    const animateCircle = () => {
+                        if (currentPercentage <= percentage) {
+                            circleBar.style.strokeDasharray = `${currentPercentage}, 100`;
+                            currentPercentage++;
+                            requestAnimationFrame(animateCircle);
+                        }
+                    };
+                    animateCircle();  // Start animation
+                });
+            });
+        </script>
+        <script>
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+
+                    const currentScroll = window.pageYOffset;
+                    const targetScroll = targetElement.offsetTop;
+                    const distance = targetScroll - currentScroll;
+                    const duration = 1500; // Duración en milisegundos (ajustable)
+                    let startTime = null;
+
+                    function scrollAnimation(currentTime) {
+                        if (startTime === null) startTime = currentTime;
+                        const timeElapsed = currentTime - startTime;
+                        const run = easeInOutQuad(timeElapsed, currentScroll, distance, duration);
+                        window.scrollTo(0, run);
+                        if (timeElapsed < duration) requestAnimationFrame(scrollAnimation);
+                    }
+
+                    // Función de animación suavizada
+                    function easeInOutQuad(t, b, c, d) {
+                        t /= d / 2;
+                        if (t < 1) return c / 2 * t * t + b;
+                        t--;
+                        return -c / 2 * (t * (t - 2) - 1) + b;
+                    }
+
+                    requestAnimationFrame(scrollAnimation);
+                });
+            });
+        </script>
     </body>
 </html>
